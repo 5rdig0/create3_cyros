@@ -13,4 +13,6 @@ To run it:
 
 ```sh
 ros2 run create3_procedures square
+ros2 run create3_procedures foward
+ros2 run create3_procedures procedure_follower
 ```

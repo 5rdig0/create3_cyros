@@ -8,9 +8,14 @@
   <license>BSD</license>
   <author email="jkearns@irobot.com">Justin Kearns</author>
 
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
   <depend>irobot_create_msgs</depend>
+  <depend>numpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

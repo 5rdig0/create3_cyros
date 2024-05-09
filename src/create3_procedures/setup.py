@@ -21,8 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'square = create3_procedures.dodge.square:main',
-            'foward = create3_procedures.dodge.fowar:main'
+            'move = create3_procedures.movement:main'
         ],
     },
 )
