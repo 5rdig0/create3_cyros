@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.003803] (create3_procedures) JobQueued: {'identifier': 'create3_procedures', 'dependencies': OrderedDict()}
+[0.004643] (create3_teleop) JobQueued: {'identifier': 'create3_teleop', 'dependencies': OrderedDict()}
+[0.004782] (create3_procedures) JobStarted: {'identifier': 'create3_procedures'}
+[0.075667] (create3_teleop) JobStarted: {'identifier': 'create3_teleop'}
+[0.098055] (-) TimerEvent: {}
+[0.199564] (-) TimerEvent: {}
+[0.300811] (-) TimerEvent: {}
+[0.406050] (-) TimerEvent: {}
+[0.506891] (-) TimerEvent: {}
+[0.607939] (-) TimerEvent: {}
+[0.708754] (-) TimerEvent: {}
+[0.809755] (-) TimerEvent: {}
+[0.910573] (-) TimerEvent: {}
+[1.011412] (-) TimerEvent: {}
+[1.112269] (-) TimerEvent: {}
+[1.213294] (-) TimerEvent: {}
+[1.314529] (-) TimerEvent: {}
+[1.415313] (-) TimerEvent: {}
+[1.516154] (-) TimerEvent: {}
+[1.617094] (-) TimerEvent: {}
+[1.717903] (-) TimerEvent: {}
+[1.818801] (-) TimerEvent: {}
+[1.919807] (-) TimerEvent: {}
+[2.021370] (-) TimerEvent: {}
+[2.122599] (-) TimerEvent: {}
+[2.223624] (-) TimerEvent: {}
+[2.326197] (-) TimerEvent: {}
+[2.427347] (-) TimerEvent: {}
+[2.528285] (-) TimerEvent: {}
+[2.629274] (-) TimerEvent: {}
+[2.730082] (-) TimerEvent: {}
+[2.831184] (-) TimerEvent: {}
+[2.932037] (-) TimerEvent: {}
+[3.032787] (-) TimerEvent: {}
+[3.133609] (-) TimerEvent: {}
+[3.234486] (-) TimerEvent: {}
+[3.335316] (-) TimerEvent: {}
+[3.436513] (-) TimerEvent: {}
+[3.537587] (-) TimerEvent: {}
+[3.638849] (-) TimerEvent: {}
+[3.739653] (-) TimerEvent: {}
+[3.840594] (-) TimerEvent: {}
+[3.942898] (-) TimerEvent: {}
+[4.044842] (-) TimerEvent: {}
+[4.147975] (-) TimerEvent: {}
+[4.250195] (-) TimerEvent: {}
+[4.351853] (-) TimerEvent: {}
+[4.453631] (-) TimerEvent: {}
+[4.555547] (-) TimerEvent: {}
+[4.657265] (-) TimerEvent: {}
+[4.759100] (-) TimerEvent: {}
+[4.859939] (-) TimerEvent: {}
+[4.963035] (-) TimerEvent: {}
+[5.065381] (-) TimerEvent: {}
+[5.166542] (-) TimerEvent: {}
+[5.267895] (-) TimerEvent: {}
+[5.369213] (-) TimerEvent: {}
+[5.470750] (-) TimerEvent: {}
+[5.572459] (-) TimerEvent: {}
+[5.676331] (-) TimerEvent: {}
+[5.779414] (-) TimerEvent: {}
+[5.880819] (-) TimerEvent: {}
+[5.982202] (-) TimerEvent: {}
+[6.083156] (-) TimerEvent: {}
+[6.184699] (-) TimerEvent: {}
+[6.286016] (-) TimerEvent: {}
+[6.387056] (-) TimerEvent: {}
+[6.488597] (-) TimerEvent: {}
+[6.589710] (-) TimerEvent: {}
+[6.690582] (-) TimerEvent: {}
+[6.791479] (-) TimerEvent: {}
+[6.892819] (-) TimerEvent: {}
+[6.993930] (-) TimerEvent: {}
+[7.096544] (-) TimerEvent: {}
+[7.200728] (-) TimerEvent: {}
+[7.304263] (-) TimerEvent: {}
+[7.375693] (create3_procedures) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cyros/create3_cyros/build/create3_procedures/build', '--no-deps', 'symlink_data'], 'cwd': '/home/cyros/create3_cyros/build/create3_procedures', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cyros', 'SSH_CLIENT': 'fe80::9070:541f:6f44:5ac1%wlan0 51814 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cyros', 'OLDPWD': '/home/cyros', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cyros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/cyros/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/cyros/create3_cyros/build/create3_procedures', 'SSH_CONNECTION': 'fe80::9070:541f:6f44:5ac1%wlan0 51814 fe80::da3a:ddff:fe58:6165%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.404468] (-) TimerEvent: {}
+[7.407995] (create3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cyros/create3_cyros/build/create3_teleop/build', '--no-deps', 'symlink_data'], 'cwd': '/home/cyros/create3_cyros/build/create3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cyros', 'SSH_CLIENT': 'fe80::9070:541f:6f44:5ac1%wlan0 51814 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cyros', 'OLDPWD': '/home/cyros', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cyros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/cyros/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/cyros/create3_cyros/build/create3_teleop', 'SSH_CONNECTION': 'fe80::9070:541f:6f44:5ac1%wlan0 51814 fe80::da3a:ddff:fe58:6165%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.504697] (-) TimerEvent: {}
+[7.606641] (-) TimerEvent: {}
+[7.707804] (-) TimerEvent: {}
+[7.809096] (-) TimerEvent: {}
+[7.909908] (-) TimerEvent: {}
+[8.011582] (-) TimerEvent: {}
+[8.113566] (-) TimerEvent: {}
+[8.215649] (-) TimerEvent: {}
+[8.316690] (-) TimerEvent: {}
+[8.420525] (-) TimerEvent: {}
+[8.525760] (-) TimerEvent: {}
+[8.629291] (-) TimerEvent: {}
+[8.732363] (-) TimerEvent: {}
+[8.834976] (-) TimerEvent: {}
+[8.938008] (-) TimerEvent: {}
+[9.039070] (-) TimerEvent: {}
+[9.141739] (-) TimerEvent: {}
+[9.244079] (-) TimerEvent: {}
+[9.310941] (create3_procedures) StdoutLine: {'line': b'running develop\n'}
+[9.319843] (create3_procedures) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.320717] (create3_procedures) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.344504] (-) TimerEvent: {}
+[9.447069] (-) TimerEvent: {}
+[9.492238] (create3_teleop) StdoutLine: {'line': b'running develop\n'}
+[9.494932] (create3_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.495813] (create3_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.547226] (-) TimerEvent: {}
+[9.648012] (-) TimerEvent: {}
+[9.748758] (-) TimerEvent: {}
+[9.849749] (-) TimerEvent: {}
+[9.953862] (-) TimerEvent: {}
+[10.055514] (-) TimerEvent: {}
+[10.157479] (-) TimerEvent: {}
+[10.258556] (-) TimerEvent: {}
+[10.365224] (-) TimerEvent: {}
+[10.466744] (-) TimerEvent: {}
+[10.568778] (-) TimerEvent: {}
+[10.670957] (-) TimerEvent: {}
+[10.773529] (-) TimerEvent: {}
+[10.876487] (-) TimerEvent: {}
+[10.980528] (-) TimerEvent: {}
+[11.068446] (create3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[11.069319] (create3_teleop) StdoutLine: {'line': b'creating create3_teleop.egg-info\n'}
+[11.070112] (create3_teleop) StdoutLine: {'line': b'writing create3_teleop.egg-info/PKG-INFO\n'}
+[11.071855] (create3_teleop) StdoutLine: {'line': b'writing dependency_links to create3_teleop.egg-info/dependency_links.txt\n'}
+[11.072967] (create3_teleop) StdoutLine: {'line': b'writing entry points to create3_teleop.egg-info/entry_points.txt\n'}
+[11.074083] (create3_teleop) StdoutLine: {'line': b'writing requirements to create3_teleop.egg-info/requires.txt\n'}
+[11.074821] (create3_teleop) StdoutLine: {'line': b'writing top-level names to create3_teleop.egg-info/top_level.txt\n'}
+[11.076259] (create3_teleop) StdoutLine: {'line': b"writing manifest file 'create3_teleop.egg-info/SOURCES.txt'\n"}
+[11.080849] (-) TimerEvent: {}
+[11.097950] (create3_teleop) StdoutLine: {'line': b"reading manifest file 'create3_teleop.egg-info/SOURCES.txt'\n"}
+[11.103312] (create3_teleop) StdoutLine: {'line': b"writing manifest file 'create3_teleop.egg-info/SOURCES.txt'\n"}
+[11.124211] (create3_teleop) StdoutLine: {'line': b'running build_ext\n'}
+[11.126855] (create3_teleop) StdoutLine: {'line': b'Creating /home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages/create3-teleop.egg-link (link to .)\n'}
+[11.134466] (create3_teleop) StdoutLine: {'line': b'Installing teleop script to /home/cyros/create3_cyros/install/create3_teleop/lib/create3_teleop\n'}
+[11.137494] (create3_teleop) StdoutLine: {'line': b'\n'}
+[11.138573] (create3_teleop) StdoutLine: {'line': b'Installed /home/cyros/create3_cyros/build/create3_teleop\n'}
+[11.140105] (create3_teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[11.141655] (create3_teleop) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_teleop/share/ament_index\n'}
+[11.143063] (create3_teleop) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_teleop/share/ament_index/resource_index\n'}
+[11.153579] (create3_teleop) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_teleop/share/ament_index/resource_index/packages\n'}
+[11.155741] (create3_teleop) StdoutLine: {'line': b'symbolically linking /home/cyros/create3_cyros/build/create3_teleop/resource/create3_teleop -> /home/cyros/create3_cyros/install/create3_teleop/share/ament_index/resource_index/packages\n'}
+[11.158067] (create3_teleop) StdoutLine: {'line': b'symbolically linking /home/cyros/create3_cyros/build/create3_teleop/package.xml -> /home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop\n'}
+[11.181266] (-) TimerEvent: {}
+[11.283623] (-) TimerEvent: {}
+[11.385949] (-) TimerEvent: {}
+[11.488021] (-) TimerEvent: {}
+[11.549296] (create3_teleop) CommandEnded: {'returncode': 0}
+[11.588604] (-) TimerEvent: {}
+[11.692130] (-) TimerEvent: {}
+[11.703465] (create3_teleop) JobEnded: {'identifier': 'create3_teleop', 'rc': 0}
+[11.765960] (create3_procedures) StdoutLine: {'line': b'running egg_info\n'}
+[11.767467] (create3_procedures) StdoutLine: {'line': b'writing create3_procedures.egg-info/PKG-INFO\n'}
+[11.769470] (create3_procedures) StdoutLine: {'line': b'writing dependency_links to create3_procedures.egg-info/dependency_links.txt\n'}
+[11.770746] (create3_procedures) StdoutLine: {'line': b'writing entry points to create3_procedures.egg-info/entry_points.txt\n'}
+[11.771747] (create3_procedures) StdoutLine: {'line': b'writing requirements to create3_procedures.egg-info/requires.txt\n'}
+[11.772691] (create3_procedures) StdoutLine: {'line': b'writing top-level names to create3_procedures.egg-info/top_level.txt\n'}
+[11.785420] (create3_procedures) StdoutLine: {'line': b"reading manifest file 'create3_procedures.egg-info/SOURCES.txt'\n"}
+[11.791380] (create3_procedures) StdoutLine: {'line': b"writing manifest file 'create3_procedures.egg-info/SOURCES.txt'\n"}
+[11.792333] (-) TimerEvent: {}
+[11.800763] (create3_procedures) StdoutLine: {'line': b'running build_ext\n'}
+[11.802975] (create3_procedures) StdoutLine: {'line': b'Creating /home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages/create3-procedures.egg-link (link to .)\n'}
+[11.807249] (create3_procedures) StdoutLine: {'line': b'Installing move script to /home/cyros/create3_cyros/install/create3_procedures/lib/create3_procedures\n'}
+[11.808779] (create3_procedures) StdoutLine: {'line': b'\n'}
+[11.809512] (create3_procedures) StdoutLine: {'line': b'Installed /home/cyros/create3_cyros/build/create3_procedures\n'}
+[11.810528] (create3_procedures) StdoutLine: {'line': b'running symlink_data\n'}
+[11.892628] (-) TimerEvent: {}
+[11.994550] (-) TimerEvent: {}
+[12.050560] (create3_procedures) CommandEnded: {'returncode': 0}
+[12.096371] (-) TimerEvent: {}
+[12.115566] (create3_procedures) JobEnded: {'identifier': 'create3_procedures', 'rc': 0}
+[12.121742] (-) EventReactorShutdown: {}

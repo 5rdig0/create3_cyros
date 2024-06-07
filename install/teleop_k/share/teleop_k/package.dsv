@@ -1,0 +1,15 @@
+source;share/teleop_k/hook/path.ps1
+source;share/teleop_k/hook/path.dsv
+source;share/teleop_k/hook/path.sh
+source;share/teleop_k/hook/pythonpath.ps1
+source;share/teleop_k/hook/pythonpath.dsv
+source;share/teleop_k/hook/pythonpath.sh
+source;share/teleop_k/hook/pythonscriptspath.ps1
+source;share/teleop_k/hook/pythonscriptspath.dsv
+source;share/teleop_k/hook/pythonscriptspath.sh
+source;share/teleop_k/hook/ament_prefix_path.ps1
+source;share/teleop_k/hook/ament_prefix_path.dsv
+source;share/teleop_k/hook/ament_prefix_path.sh
+source;../../build/teleop_k/share/teleop_k/hook/pythonpath_develop.ps1
+source;../../build/teleop_k/share/teleop_k/hook/pythonpath_develop.dsv
+source;../../build/teleop_k/share/teleop_k/hook/pythonpath_develop.sh

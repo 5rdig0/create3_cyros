@@ -1,0 +1,19 @@
+[6.095s] Invoking command in '/home/cyros/create3_cyros/build/rs_cam': PYTHONPATH=/home/cyros/create3_cyros/build/rs_cam/prefix_override:/home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/rs_cam/build --no-deps symlink_data
+[7.701s] running develop
+[7.704s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.705s]   warnings.warn(
+[8.982s] running egg_info
+[8.991s] writing rs_cam.egg-info/PKG-INFO
+[8.998s] writing dependency_links to rs_cam.egg-info/dependency_links.txt
+[9.003s] writing entry points to rs_cam.egg-info/entry_points.txt
+[9.012s] writing requirements to rs_cam.egg-info/requires.txt
+[9.013s] writing top-level names to rs_cam.egg-info/top_level.txt
+[9.030s] reading manifest file 'rs_cam.egg-info/SOURCES.txt'
+[9.037s] writing manifest file 'rs_cam.egg-info/SOURCES.txt'
+[9.049s] running build_ext
+[9.052s] Creating /home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages/rs-cam.egg-link (link to .)
+[9.062s] Installing stream script to /home/cyros/create3_cyros/install/rs_cam/lib/rs_cam
+[9.068s] 
+[9.072s] Installed /home/cyros/create3_cyros/build/rs_cam
+[9.075s] running symlink_data
+[9.231s] Invoked command in '/home/cyros/create3_cyros/build/rs_cam' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/rs_cam/prefix_override:/home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/rs_cam/build --no-deps symlink_data

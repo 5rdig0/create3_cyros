@@ -1,0 +1,20 @@
+[7.533s] Invoking command in '/home/cyros/create3_cyros/build/teleop_k': PYTHONPATH=/home/cyros/create3_cyros/build/teleop_k/prefix_override:/home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/teleop_k/build --no-deps
+[9.397s] running develop
+[9.401s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[9.402s]   warnings.warn(
+[10.612s] running egg_info
+[10.615s] creating teleop_k.egg-info
+[10.619s] writing teleop_k.egg-info/PKG-INFO
+[10.624s] writing dependency_links to teleop_k.egg-info/dependency_links.txt
+[10.628s] writing entry points to teleop_k.egg-info/entry_points.txt
+[10.631s] writing requirements to teleop_k.egg-info/requires.txt
+[10.635s] writing top-level names to teleop_k.egg-info/top_level.txt
+[10.639s] writing manifest file 'teleop_k.egg-info/SOURCES.txt'
+[10.656s] reading manifest file 'teleop_k.egg-info/SOURCES.txt'
+[10.663s] writing manifest file 'teleop_k.egg-info/SOURCES.txt'
+[10.677s] running build_ext
+[10.681s] Creating /home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages/teleop-k.egg-link (link to .)
+[10.690s] Installing teleop script to /home/cyros/create3_cyros/install/teleop_k/bin
+[10.696s] 
+[10.698s] Installed /home/cyros/create3_cyros/build/teleop_k
+[11.058s] Invoked command in '/home/cyros/create3_cyros/build/teleop_k' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/teleop_k/prefix_override:/home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/teleop_k/build --no-deps

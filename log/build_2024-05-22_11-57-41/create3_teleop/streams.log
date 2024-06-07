@@ -1,0 +1,19 @@
+[14.058s] Invoking command in '/home/cyros/create3_cyros/build/create3_teleop': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data
+[17.146s] running develop
+[17.153s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[17.154s]   warnings.warn(
+[18.837s] running egg_info
+[18.838s] writing create3_teleop.egg-info/PKG-INFO
+[18.841s] writing dependency_links to create3_teleop.egg-info/dependency_links.txt
+[18.843s] writing entry points to create3_teleop.egg-info/entry_points.txt
+[18.845s] writing requirements to create3_teleop.egg-info/requires.txt
+[18.847s] writing top-level names to create3_teleop.egg-info/top_level.txt
+[18.867s] reading manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[18.878s] writing manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[18.890s] running build_ext
+[18.892s] Creating /home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages/create3-teleop.egg-link (link to .)
+[18.909s] Installing teleop script to /home/cyros/create3_cyros/install/create3_teleop/lib/create3_teleop
+[18.914s] 
+[18.914s] Installed /home/cyros/create3_cyros/build/create3_teleop
+[18.915s] running symlink_data
+[19.518s] Invoked command in '/home/cyros/create3_cyros/build/create3_teleop' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data

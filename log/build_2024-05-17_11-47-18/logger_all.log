@@ -1,0 +1,318 @@
+[0.453s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.453s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa82bb700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa83e7af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa83e7af0>>)
+[1.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cyros/create3_cyros'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'ignore_ament_install'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'colcon_meta'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['ros']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'ros'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['cmake', 'python']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'cmake'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'python'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extensions ['python_setup_py']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aros2duino) by extension 'python_setup_py'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extension 'ignore_ament_install'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extensions ['colcon_pkg']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extension 'colcon_pkg'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extensions ['colcon_meta']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extension 'colcon_meta'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extensions ['ros']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_procedures) by extension 'ros'
+[1.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_procedures' with type 'ros.ament_python' and name 'create3_procedures'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extension 'ignore_ament_install'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extensions ['colcon_pkg']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extension 'colcon_pkg'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extensions ['colcon_meta']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extension 'colcon_meta'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extensions ['ros']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_teleop) by extension 'ros'
+[1.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_teleop' with type 'ros.ament_python' and name 'create3_teleop'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore_ament_install'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_pkg']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_meta']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_meta'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ros']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ros'
+[1.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_teleop_keyboard' with type 'ros.ament_python' and name 'teleop_k'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extensions ['ignore', 'ignore_ament_install']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extension 'ignore'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extension 'ignore_ament_install'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extensions ['colcon_pkg']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extension 'colcon_pkg'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extensions ['colcon_meta']
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extension 'colcon_meta'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extensions ['ros']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_cam) by extension 'ros'
+[1.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rs_cam' with type 'ros.ament_python' and name 'rs_cam'
+[1.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.417s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/cyros/create3_cyros/install
+[1.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 191 installed packages in /opt/ros/humble
+[1.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_target' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_clean_cache' from command line to 'False'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_clean_first' from command line to 'False'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'cmake_force_configure' from command line to 'False'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'ament_cmake_args' from command line to 'None'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'catkin_cmake_args' from command line to 'None'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'create3_procedures' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.593s] DEBUG:colcon.colcon_core.verb:Building package 'create3_procedures' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyros/create3_cyros/build/create3_procedures', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyros/create3_cyros/install/create3_procedures', 'merge_install': False, 'path': '/home/cyros/create3_cyros/src/create3_procedures', 'symlink_install': True, 'test_result_base': None}
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_args' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.596s] DEBUG:colcon.colcon_core.verb:Building package 'create3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyros/create3_cyros/build/create3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyros/create3_cyros/install/create3_teleop', 'merge_install': False, 'path': '/home/cyros/create3_cyros/src/create3_teleop', 'symlink_install': True, 'test_result_base': None}
+[1.597s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_target' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'rs_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.598s] DEBUG:colcon.colcon_core.verb:Building package 'rs_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyros/create3_cyros/build/rs_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyros/create3_cyros/install/rs_cam', 'merge_install': False, 'path': '/home/cyros/create3_cyros/src/rs_cam', 'symlink_install': True, 'test_result_base': None}
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_args' from command line to 'None'
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_target' from command line to 'None'
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_clean_cache' from command line to 'False'
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_clean_first' from command line to 'False'
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'cmake_force_configure' from command line to 'False'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'ament_cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'catkin_cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'teleop_k' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.601s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_k' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyros/create3_cyros/build/teleop_k', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyros/create3_cyros/install/teleop_k', 'merge_install': False, 'path': '/home/cyros/create3_cyros/src/ros2_teleop_keyboard', 'symlink_install': True, 'test_result_base': None}
+[1.601s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.606s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cyros/create3_cyros/src/create3_procedures' with build type 'ament_python'
+[1.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_procedures', 'ament_prefix_path')
+[1.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/ament_prefix_path.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/ament_prefix_path.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/ament_prefix_path.sh'
+[1.626s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.643s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cyros/create3_cyros/src/create3_teleop' with build type 'ament_python'
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'ament_prefix_path')
+[1.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.670s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cyros/create3_cyros/src/rs_cam' with build type 'ament_python'
+[1.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('rs_cam', 'ament_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/ament_prefix_path.ps1'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/ament_prefix_path.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/ament_prefix_path.sh'
+[1.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.696s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cyros/create3_cyros/src/ros2_teleop_keyboard' with build type 'ament_python'
+[1.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_k', 'ament_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/ament_prefix_path.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/ament_prefix_path.dsv'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/ament_prefix_path.sh'
+[1.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.941s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cyros/create3_cyros/src/create3_procedures'
+[2.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.113s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cyros/create3_cyros/src/create3_teleop'
+[4.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cyros/create3_cyros/src/rs_cam'
+[5.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.495s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'teleop_k' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[6.497s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'teleop_k' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[6.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cyros/create3_cyros/src/ros2_teleop_keyboard'
+[6.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyros/create3_cyros/build/create3_teleop': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data
+[9.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyros/create3_cyros/build/rs_cam': PYTHONPATH=/home/cyros/create3_cyros/build/rs_cam/prefix_override:/home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/rs_cam/build --no-deps symlink_data
+[9.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyros/create3_cyros/build/teleop_k': PYTHONPATH=/home/cyros/create3_cyros/build/teleop_k/prefix_override:/home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/teleop_k/build --no-deps
+[9.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyros/create3_cyros/build/create3_procedures': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data
+[12.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'pythonpath_develop')
+[12.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/create3_teleop/share/create3_teleop/hook/pythonpath_develop.ps1'
+[12.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyros/create3_cyros/build/create3_teleop' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data
+[12.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/build/create3_teleop/share/create3_teleop/hook/pythonpath_develop.dsv'
+[12.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/create3_teleop/share/create3_teleop/hook/pythonpath_develop.sh'
+[12.576s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop' for CMake module files
+[12.597s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop' for CMake config files
+[12.612s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop/lib'
+[12.621s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop/bin'
+[12.623s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop/lib/pkgconfig/create3_teleop.pc'
+[12.629s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages'
+[12.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'pythonpath')
+[12.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/pythonpath.ps1'
+[12.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/pythonpath.dsv'
+[12.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/hook/pythonpath.sh'
+[12.666s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_teleop/bin'
+[12.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_teleop)
+[12.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/package.ps1'
+[12.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/package.dsv'
+[12.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/package.sh'
+[12.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/package.bash'
+[12.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_teleop/share/create3_teleop/package.zsh'
+[12.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyros/create3_cyros/install/create3_teleop/share/colcon-core/packages/create3_teleop)
+[12.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_k', 'pythonpath_develop')
+[12.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/teleop_k/share/teleop_k/hook/pythonpath_develop.ps1'
+[12.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyros/create3_cyros/build/teleop_k' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/teleop_k/prefix_override:/home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/teleop_k/build --no-deps
+[12.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/build/teleop_k/share/teleop_k/hook/pythonpath_develop.dsv'
+[12.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/teleop_k/share/teleop_k/hook/pythonpath_develop.sh'
+[12.768s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k' for CMake module files
+[12.771s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k' for CMake config files
+[12.777s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k/lib'
+[12.779s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k/bin'
+[12.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_k', 'path')
+[12.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/path.ps1'
+[12.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/path.dsv'
+[12.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/path.sh'
+[12.793s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k/lib/pkgconfig/teleop_k.pc'
+[12.794s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k/lib/python3.10/site-packages'
+[12.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_k', 'pythonpath')
+[12.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonpath.ps1'
+[12.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonpath.dsv'
+[12.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonpath.sh'
+[12.809s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/teleop_k/bin'
+[12.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_k', 'pythonscriptspath')
+[12.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonscriptspath.ps1'
+[12.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonscriptspath.dsv'
+[12.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/hook/pythonscriptspath.sh'
+[12.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_k)
+[12.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/package.ps1'
+[12.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/package.dsv'
+[12.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/package.sh'
+[12.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/package.bash'
+[12.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/teleop_k/share/teleop_k/package.zsh'
+[12.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyros/create3_cyros/install/teleop_k/share/colcon-core/packages/teleop_k)
+[12.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('rs_cam', 'pythonpath_develop')
+[12.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/rs_cam/share/rs_cam/hook/pythonpath_develop.ps1'
+[12.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyros/create3_cyros/build/rs_cam' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/rs_cam/prefix_override:/home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/rs_cam/build --no-deps symlink_data
+[12.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/build/rs_cam/share/rs_cam/hook/pythonpath_develop.dsv'
+[12.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/rs_cam/share/rs_cam/hook/pythonpath_develop.sh'
+[12.969s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam' for CMake module files
+[12.978s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam' for CMake config files
+[12.982s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam/lib'
+[12.983s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam/bin'
+[12.983s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam/lib/pkgconfig/rs_cam.pc'
+[12.985s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam/lib/python3.10/site-packages'
+[12.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('rs_cam', 'pythonpath')
+[12.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/pythonpath.ps1'
+[12.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/pythonpath.dsv'
+[12.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/hook/pythonpath.sh'
+[12.999s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/rs_cam/bin'
+[12.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rs_cam)
+[13.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/package.ps1'
+[13.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/package.dsv'
+[13.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/package.sh'
+[13.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/package.bash'
+[13.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/rs_cam/share/rs_cam/package.zsh'
+[13.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyros/create3_cyros/install/rs_cam/share/colcon-core/packages/rs_cam)
+[13.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_procedures', 'pythonpath_develop')
+[13.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/create3_procedures/share/create3_procedures/hook/pythonpath_develop.ps1'
+[13.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyros/create3_cyros/build/create3_procedures' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data
+[13.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/build/create3_procedures/share/create3_procedures/hook/pythonpath_develop.dsv'
+[13.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/build/create3_procedures/share/create3_procedures/hook/pythonpath_develop.sh'
+[13.230s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures' for CMake module files
+[13.233s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures' for CMake config files
+[13.236s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures/lib'
+[13.237s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures/bin'
+[13.238s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures/lib/pkgconfig/create3_procedures.pc'
+[13.239s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages'
+[13.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_procedures', 'pythonpath')
+[13.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/pythonpath.ps1'
+[13.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/pythonpath.dsv'
+[13.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/hook/pythonpath.sh'
+[13.250s] Level 1:colcon.colcon_core.environment:checking '/home/cyros/create3_cyros/install/create3_procedures/bin'
+[13.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_procedures)
+[13.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/package.ps1'
+[13.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/package.dsv'
+[13.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/package.sh'
+[13.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/package.bash'
+[13.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures/package.zsh'
+[13.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyros/create3_cyros/install/create3_procedures/share/colcon-core/packages/create3_procedures)
+[13.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.274s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.304s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.311s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[13.312s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyros/create3_cyros/install/local_setup.ps1'
+[13.317s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyros/create3_cyros/install/_local_setup_util_ps1.py'
+[13.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyros/create3_cyros/install/setup.ps1'
+[13.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyros/create3_cyros/install/local_setup.sh'
+[13.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyros/create3_cyros/install/_local_setup_util_sh.py'
+[13.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyros/create3_cyros/install/setup.sh'
+[13.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyros/create3_cyros/install/local_setup.bash'
+[13.353s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyros/create3_cyros/install/setup.bash'
+[13.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyros/create3_cyros/install/local_setup.zsh'
+[13.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyros/create3_cyros/install/setup.zsh'

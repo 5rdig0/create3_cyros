@@ -1,0 +1,3 @@
+[console_scripts]
+move = create3_procedures.movement:main
+

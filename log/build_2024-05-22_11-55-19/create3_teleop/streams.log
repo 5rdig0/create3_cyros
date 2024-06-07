@@ -1,0 +1,19 @@
+[8.316s] Invoking command in '/home/cyros/create3_cyros/build/create3_teleop': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data
+[10.846s] running develop
+[10.850s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.853s]   warnings.warn(
+[13.089s] running egg_info
+[13.092s] writing create3_teleop.egg-info/PKG-INFO
+[13.104s] writing dependency_links to create3_teleop.egg-info/dependency_links.txt
+[13.107s] writing entry points to create3_teleop.egg-info/entry_points.txt
+[13.110s] writing requirements to create3_teleop.egg-info/requires.txt
+[13.114s] writing top-level names to create3_teleop.egg-info/top_level.txt
+[13.134s] reading manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[13.140s] writing manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[13.175s] running build_ext
+[13.180s] Creating /home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages/create3-teleop.egg-link (link to .)
+[13.185s] Installing teleop script to /home/cyros/create3_cyros/install/create3_teleop/lib/create3_teleop
+[13.195s] 
+[13.209s] Installed /home/cyros/create3_cyros/build/create3_teleop
+[13.211s] running symlink_data
+[13.485s] Invoked command in '/home/cyros/create3_cyros/build/create3_teleop' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_teleop/prefix_override:/home/cyros/create3_cyros/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_teleop/build --no-deps symlink_data

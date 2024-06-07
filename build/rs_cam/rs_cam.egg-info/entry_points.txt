@@ -1,0 +1,3 @@
+[console_scripts]
+stream = rs_cam.app:maindetect = rs_cam.detection:main
+

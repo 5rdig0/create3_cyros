@@ -1,0 +1,19 @@
+[6.120s] Invoking command in '/home/cyros/create3_cyros/build/create3_procedures': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data
+[7.682s] running develop
+[7.684s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.684s]   warnings.warn(
+[8.859s] running egg_info
+[8.861s] writing create3_procedures.egg-info/PKG-INFO
+[8.873s] writing dependency_links to create3_procedures.egg-info/dependency_links.txt
+[8.882s] writing entry points to create3_procedures.egg-info/entry_points.txt
+[8.891s] writing requirements to create3_procedures.egg-info/requires.txt
+[8.903s] writing top-level names to create3_procedures.egg-info/top_level.txt
+[8.927s] reading manifest file 'create3_procedures.egg-info/SOURCES.txt'
+[8.938s] writing manifest file 'create3_procedures.egg-info/SOURCES.txt'
+[8.955s] running build_ext
+[8.960s] Creating /home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages/create3-procedures.egg-link (link to .)
+[8.977s] Installing move script to /home/cyros/create3_cyros/install/create3_procedures/lib/create3_procedures
+[8.989s] 
+[8.990s] Installed /home/cyros/create3_cyros/build/create3_procedures
+[8.992s] running symlink_data
+[9.269s] Invoked command in '/home/cyros/create3_cyros/build/create3_procedures' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data

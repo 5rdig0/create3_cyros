@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001158] (create3_procedures) JobQueued: {'identifier': 'create3_procedures', 'dependencies': OrderedDict()}
+[0.002171] (create3_procedures) JobStarted: {'identifier': 'create3_procedures'}
+[0.099124] (-) TimerEvent: {}
+[0.199908] (-) TimerEvent: {}
+[0.301035] (-) TimerEvent: {}
+[0.401953] (-) TimerEvent: {}
+[0.503210] (-) TimerEvent: {}
+[0.604345] (-) TimerEvent: {}
+[0.705112] (-) TimerEvent: {}
+[0.806168] (-) TimerEvent: {}
+[0.906963] (-) TimerEvent: {}
+[1.007788] (-) TimerEvent: {}
+[1.108830] (-) TimerEvent: {}
+[1.210126] (-) TimerEvent: {}
+[1.311003] (-) TimerEvent: {}
+[1.411905] (-) TimerEvent: {}
+[1.512747] (-) TimerEvent: {}
+[1.613549] (-) TimerEvent: {}
+[1.714652] (-) TimerEvent: {}
+[1.815881] (-) TimerEvent: {}
+[1.917277] (-) TimerEvent: {}
+[2.018352] (-) TimerEvent: {}
+[2.119092] (-) TimerEvent: {}
+[2.220343] (-) TimerEvent: {}
+[2.321236] (-) TimerEvent: {}
+[2.422819] (-) TimerEvent: {}
+[2.523951] (-) TimerEvent: {}
+[2.625190] (-) TimerEvent: {}
+[2.726130] (-) TimerEvent: {}
+[2.827248] (-) TimerEvent: {}
+[2.928521] (-) TimerEvent: {}
+[3.029416] (-) TimerEvent: {}
+[3.131072] (-) TimerEvent: {}
+[3.232896] (-) TimerEvent: {}
+[3.279379] (create3_procedures) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cyros/create3_cyros/build/create3_procedures/build', '--no-deps', 'symlink_data'], 'cwd': '/home/cyros/create3_cyros/build/create3_procedures', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cyros', 'SSH_CLIENT': 'fe80::9070:541f:6f44:5ac1%wlan0 60863 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/cyros', 'OLDPWD': '/home/cyros', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cyros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/cyros/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/cyros/create3_cyros/build/create3_procedures', 'SSH_CONNECTION': 'fe80::9070:541f:6f44:5ac1%wlan0 60863 fe80::da3a:ddff:fe58:6165%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.333056] (-) TimerEvent: {}
+[3.433936] (-) TimerEvent: {}
+[3.535246] (-) TimerEvent: {}
+[3.636829] (-) TimerEvent: {}
+[3.738833] (-) TimerEvent: {}
+[3.840992] (-) TimerEvent: {}
+[3.943386] (-) TimerEvent: {}
+[4.045743] (-) TimerEvent: {}
+[4.149239] (-) TimerEvent: {}
+[4.251024] (-) TimerEvent: {}
+[4.353302] (-) TimerEvent: {}
+[4.455195] (-) TimerEvent: {}
+[4.557206] (-) TimerEvent: {}
+[4.660172] (-) TimerEvent: {}
+[4.763111] (-) TimerEvent: {}
+[4.777842] (create3_procedures) StdoutLine: {'line': b'running develop\n'}
+[4.784273] (create3_procedures) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.785358] (create3_procedures) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.866105] (-) TimerEvent: {}
+[4.968210] (-) TimerEvent: {}
+[5.070562] (-) TimerEvent: {}
+[5.173494] (-) TimerEvent: {}
+[5.276044] (-) TimerEvent: {}
+[5.379082] (-) TimerEvent: {}
+[5.481774] (-) TimerEvent: {}
+[5.584600] (-) TimerEvent: {}
+[5.687463] (-) TimerEvent: {}
+[5.770642] (create3_procedures) StdoutLine: {'line': b'running egg_info\n'}
+[5.773891] (create3_procedures) StdoutLine: {'line': b'creating create3_procedures.egg-info\n'}
+[5.787173] (create3_procedures) StdoutLine: {'line': b'writing create3_procedures.egg-info/PKG-INFO\n'}
+[5.788553] (-) TimerEvent: {}
+[5.789116] (create3_procedures) StdoutLine: {'line': b'writing dependency_links to create3_procedures.egg-info/dependency_links.txt\n'}
+[5.790085] (create3_procedures) StdoutLine: {'line': b'writing entry points to create3_procedures.egg-info/entry_points.txt\n'}
+[5.790909] (create3_procedures) StdoutLine: {'line': b'writing requirements to create3_procedures.egg-info/requires.txt\n'}
+[5.792109] (create3_procedures) StdoutLine: {'line': b'writing top-level names to create3_procedures.egg-info/top_level.txt\n'}
+[5.792923] (create3_procedures) StdoutLine: {'line': b"writing manifest file 'create3_procedures.egg-info/SOURCES.txt'\n"}
+[5.793611] (create3_procedures) StdoutLine: {'line': b"reading manifest file 'create3_procedures.egg-info/SOURCES.txt'\n"}
+[5.796511] (create3_procedures) StdoutLine: {'line': b"writing manifest file 'create3_procedures.egg-info/SOURCES.txt'\n"}
+[5.797408] (create3_procedures) StdoutLine: {'line': b'running build_ext\n'}
+[5.797983] (create3_procedures) StdoutLine: {'line': b'Creating /home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages/create3-procedures.egg-link (link to .)\n'}
+[5.798435] (create3_procedures) StdoutLine: {'line': b'Installing move script to /home/cyros/create3_cyros/install/create3_procedures/lib/create3_procedures\n'}
+[5.800780] (create3_procedures) StdoutLine: {'line': b'\n'}
+[5.801628] (create3_procedures) StdoutLine: {'line': b'Installed /home/cyros/create3_cyros/build/create3_procedures\n'}
+[5.802366] (create3_procedures) StdoutLine: {'line': b'running symlink_data\n'}
+[5.803647] (create3_procedures) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index\n'}
+[5.805308] (create3_procedures) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index\n'}
+[5.812956] (create3_procedures) StdoutLine: {'line': b'creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index/packages\n'}
+[5.815127] (create3_procedures) StdoutLine: {'line': b'symbolically linking /home/cyros/create3_cyros/build/create3_procedures/resource/create3_procedures -> /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index/packages\n'}
+[5.817080] (create3_procedures) StdoutLine: {'line': b'symbolically linking /home/cyros/create3_cyros/build/create3_procedures/package.xml -> /home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures\n'}
+[5.888798] (-) TimerEvent: {}
+[5.970624] (create3_procedures) CommandEnded: {'returncode': 0}
+[5.989739] (-) TimerEvent: {}
+[6.068930] (create3_procedures) JobEnded: {'identifier': 'create3_procedures', 'rc': 0}
+[6.074649] (-) EventReactorShutdown: {}
