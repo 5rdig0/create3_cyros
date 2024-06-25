@@ -1,3 +1,0 @@
-[console_scripts]
-show_image = video_stream_ros2.app:main
-

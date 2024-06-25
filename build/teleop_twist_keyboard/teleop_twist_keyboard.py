@@ -1,1 +1,0 @@
-/home/cyros/create3_cyros/src/ros2_teleop_keyboard/teleop_twist_keyboard.py
