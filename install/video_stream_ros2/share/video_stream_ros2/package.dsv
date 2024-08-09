@@ -1,9 +1,0 @@
-source;share/video_stream_ros2/hook/pythonpath.ps1
-source;share/video_stream_ros2/hook/pythonpath.dsv
-source;share/video_stream_ros2/hook/pythonpath.sh
-source;share/video_stream_ros2/hook/ament_prefix_path.ps1
-source;share/video_stream_ros2/hook/ament_prefix_path.dsv
-source;share/video_stream_ros2/hook/ament_prefix_path.sh
-source;../../build/video_stream_ros2/share/video_stream_ros2/hook/pythonpath_develop.ps1
-source;../../build/video_stream_ros2/share/video_stream_ros2/hook/pythonpath_develop.dsv
-source;../../build/video_stream_ros2/share/video_stream_ros2/hook/pythonpath_develop.sh

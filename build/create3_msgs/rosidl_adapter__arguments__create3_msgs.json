@@ -1,0 +1,6 @@
+{
+  "package_name": "create3_msgs",
+  "non_idl_tuples": [
+    "/home/cyros/create3_cyros/src/create3_msgs:msg/Armcontrol.msg"
+  ]
+}

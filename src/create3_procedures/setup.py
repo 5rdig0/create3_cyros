@@ -21,7 +21,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'move = create3_procedures.movement:main'
+            'move = create3_procedures.movement:main',
+            'arm = create3_procedures.interaction:main',
         ],
     },
 )

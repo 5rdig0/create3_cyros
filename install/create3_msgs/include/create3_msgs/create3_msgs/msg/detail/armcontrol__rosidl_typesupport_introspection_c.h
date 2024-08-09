@@ -1,0 +1,1 @@
+/home/cyros/create3_cyros/build/create3_msgs/rosidl_typesupport_introspection_c/create3_msgs/msg/detail/armcontrol__rosidl_typesupport_introspection_c.h

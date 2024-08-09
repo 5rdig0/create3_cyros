@@ -1,0 +1,25 @@
+[10.255s] Invoking command in '/home/cyros/create3_cyros/build/create3_procedures': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data
+[12.879s] running develop
+[14.290s] running egg_info
+[14.295s] creating create3_procedures.egg-info
+[14.298s] writing create3_procedures.egg-info/PKG-INFO
+[14.298s] writing dependency_links to create3_procedures.egg-info/dependency_links.txt
+[14.299s] writing entry points to create3_procedures.egg-info/entry_points.txt
+[14.299s] writing requirements to create3_procedures.egg-info/requires.txt
+[14.303s] writing top-level names to create3_procedures.egg-info/top_level.txt
+[14.307s] writing manifest file 'create3_procedures.egg-info/SOURCES.txt'
+[14.495s] reading manifest file 'create3_procedures.egg-info/SOURCES.txt'
+[14.499s] writing manifest file 'create3_procedures.egg-info/SOURCES.txt'
+[14.506s] running build_ext
+[14.509s] Creating /home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages/create3-procedures.egg-link (link to .)
+[14.513s] Installing arm script to /home/cyros/create3_cyros/install/create3_procedures/lib/create3_procedures
+[14.517s] Installing move script to /home/cyros/create3_cyros/install/create3_procedures/lib/create3_procedures
+[14.519s] 
+[14.520s] Installed /home/cyros/create3_cyros/build/create3_procedures
+[14.522s] running symlink_data
+[14.523s] creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index
+[14.529s] creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index
+[14.530s] creating /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index/packages
+[14.540s] symbolically linking /home/cyros/create3_cyros/build/create3_procedures/resource/create3_procedures -> /home/cyros/create3_cyros/install/create3_procedures/share/ament_index/resource_index/packages
+[14.541s] symbolically linking /home/cyros/create3_cyros/build/create3_procedures/package.xml -> /home/cyros/create3_cyros/install/create3_procedures/share/create3_procedures
+[14.753s] Invoked command in '/home/cyros/create3_cyros/build/create3_procedures' returned '0': PYTHONPATH=/home/cyros/create3_cyros/build/create3_procedures/prefix_override:/home/cyros/create3_cyros/install/create3_procedures/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cyros/create3_cyros/build/create3_procedures/build --no-deps symlink_data

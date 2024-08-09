@@ -1,8 +1,0 @@
-setup.py
-teleop_twist_keyboard.py
-teleop_k.egg-info/PKG-INFO
-teleop_k.egg-info/SOURCES.txt
-teleop_k.egg-info/dependency_links.txt
-teleop_k.egg-info/entry_points.txt
-teleop_k.egg-info/requires.txt
-teleop_k.egg-info/top_level.txt

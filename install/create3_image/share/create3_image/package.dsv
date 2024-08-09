@@ -1,0 +1,9 @@
+source;share/create3_image/hook/pythonpath.ps1
+source;share/create3_image/hook/pythonpath.dsv
+source;share/create3_image/hook/pythonpath.sh
+source;share/create3_image/hook/ament_prefix_path.ps1
+source;share/create3_image/hook/ament_prefix_path.dsv
+source;share/create3_image/hook/ament_prefix_path.sh
+source;../../build/create3_image/share/create3_image/hook/pythonpath_develop.ps1
+source;../../build/create3_image/share/create3_image/hook/pythonpath_develop.dsv
+source;../../build/create3_image/share/create3_image/hook/pythonpath_develop.sh

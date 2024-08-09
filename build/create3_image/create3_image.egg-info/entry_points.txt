@@ -1,0 +1,4 @@
+[console_scripts]
+server = create3_image.app:main
+webcam = create3_image.webcam:main
+
