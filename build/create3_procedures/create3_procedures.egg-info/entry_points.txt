@@ -1,4 +1,0 @@
-[console_scripts]
-arm = create3_procedures.interaction:main
-move = create3_procedures.movement:main
-

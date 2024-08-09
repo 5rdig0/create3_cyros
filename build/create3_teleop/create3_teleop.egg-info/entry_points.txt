@@ -1,3 +1,0 @@
-[console_scripts]
-teleop = create3_teleop.teleop_k:main
-

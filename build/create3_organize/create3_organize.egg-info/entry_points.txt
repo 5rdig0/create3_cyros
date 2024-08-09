@@ -1,3 +1,0 @@
-[console_scripts]
-organize = create3_organize.organize:main
-
