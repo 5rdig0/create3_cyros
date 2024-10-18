@@ -1,8 +1,0 @@
-# Goal
-float64 trajectory
----
-# Result
-float64 final_pos
----
-# Feedback
-int64 trajectory_position
